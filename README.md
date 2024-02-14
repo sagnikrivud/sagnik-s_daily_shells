@@ -17,3 +17,14 @@
 
 ## Installation
 
+[Git Operation (Git.sh)](https://github.com)
+
+```sh
+$ chmod +x Git.sh
+```
+
+```sh
+$ ./Git.sh "commit-message" <pull_branch_name> <push_branch_name>
+
+
+
