@@ -67,6 +67,6 @@ $ /Permission.sh <File/Folder-name> <permission_code>
 $ chmod +x SSHKeyLoad.sh
 ```
 ```sh
-./SSHKeyLoad.sh user-email@domain.com
+$ ./SSHKeyLoad.sh user-email@domain.com
 ```
 
