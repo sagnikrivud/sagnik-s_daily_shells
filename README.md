@@ -58,7 +58,7 @@ $ ./MysqlBackup.sh
 $ chmod +x Permission.sh
 ```
 ```sh
-$ /Permission.sh <File/Folder name> <permission_code>
+$ /Permission.sh <File/Folder-name> <permission_code>
 ```
 
 
