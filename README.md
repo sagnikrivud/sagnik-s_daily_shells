@@ -38,11 +38,11 @@ $ ./MongoBackup.sh
 [Mysql RDS backup](https://aws.amazon.com/free/database/?gclid=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB&trk=a049d6a3-611f-4ee9-9d3b-e88a4b66272f&sc_channel=ps&ef_id=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB:G:s&s_kwcid=AL!4422!3!659622174426!e!!g!!amazon%20mysql%20rds!11542049405!107751951770)
 
 > Create .env file and a DB folder in the root directory where all backup files will be stored, and add the value like this
-DB_HOST=your-rds-endpoint.region.rds.amazonaws.com
-DB_PORT=your-rds-port
-DB_USER=your-username
-DB_PASSWORD=your-password
-DB_NAME=your-database-nam
+> DB_HOST=your-rds-endpoint.region.rds.amazonaws.com
+> DB_PORT=your-rds-port
+> DB_USER=your-username
+> DB_PASSWORD=your-password
+> DB_NAME=your-database-nam
 
 ```sh
 $ chmod +x MysqlBackup.sh
