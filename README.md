@@ -13,6 +13,7 @@
 - MongoDb Backup script
 - Mysql DB backup from Host script
 - Load SSH key for Server after ssh_pub key generate.
+- Review Javascript file.
 
 
 ## Installation
