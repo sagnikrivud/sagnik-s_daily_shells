@@ -27,7 +27,7 @@ $ chmod +x Git.sh
 $ ./Git.sh "commit-message" <pull_branch_name> <push_branch_name>
 ```
 
-[Mongodb Cluster backup](https://www.mongodb.com/cloud/atlas/register)
+[Mongodb Cluster backup (MongoBackup.sh)](https://www.mongodb.com/cloud/atlas/register)
 > Create .env file and a DB folder in the root directory where all backup files will be stored, and add the value like this MONGODB_URI=""
 ```sh
 $ chmod +x MongoBackup.sh
@@ -35,7 +35,7 @@ $ chmod +x MongoBackup.sh
 ```sh
 $ ./MongoBackup.sh
 ```
-[Mysql RDS backup (AWS RDS)](https://aws.amazon.com/free/database/?gclid=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB&trk=a049d6a3-611f-4ee9-9d3b-e88a4b66272f&sc_channel=ps&ef_id=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB:G:s&s_kwcid=AL!4422!3!659622174426!e!!g!!amazon%20mysql%20rds!11542049405!107751951770)
+[Mysql RDS backup (AWS RDS) (MysqlBackup.sh)](https://aws.amazon.com/free/database/?gclid=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB&trk=a049d6a3-611f-4ee9-9d3b-e88a4b66272f&sc_channel=ps&ef_id=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB:G:s&s_kwcid=AL!4422!3!659622174426!e!!g!!amazon%20mysql%20rds!11542049405!107751951770)
 
 > Create .env file and a DB folder in the root directory where all backup files will be stored, and add the value like this
 > DB_HOST=your-rds-endpoint.region.rds.amazonaws.com
@@ -51,7 +51,7 @@ $ chmod +x MysqlBackup.sh
 $ ./MysqlBackup.sh
 ```
 
-[Linux file/folder permission](https://www.guru99.com/file-permissions.html)
+[Linux file/folder permission (Permission.sh)](https://www.guru99.com/file-permissions.html)
 > Permission.sh file can be use for to set or update permission of any file or folder in Linux enviorment, please follow the rule
 
 ```sh
