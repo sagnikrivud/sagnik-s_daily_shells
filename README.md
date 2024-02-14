@@ -60,5 +60,13 @@ $ chmod +x Permission.sh
 ```sh
 $ /Permission.sh <File/Folder-name> <permission_code>
 ```
+[SSh Key load (SSHKeyLoad.sh)](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
+> SSH key generate and load the key at server for uninterrupted Git pull/push operation
 
+```sh
+$ chmod +x SSHKeyLoad.sh
+```
+```sh
+./SSHKeyLoad.sh user-email@domain.com
+```
 
