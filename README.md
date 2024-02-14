@@ -51,4 +51,14 @@ $ chmod +x MysqlBackup.sh
 $ ./MysqlBackup.sh
 ```
 
+[Linux file/folder permission](https://www.guru99.com/file-permissions.html)
+> Permission.sh file can be use for to set or update permission of any file or folder in Linux enviorment, please follow the rule
+
+```sh
+$ chmod +x Permission.sh
+```
+```sh
+$ /Permission.sh <File/Folder name> <permission_code>
+```
+
 
