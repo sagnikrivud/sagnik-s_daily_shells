@@ -26,5 +26,14 @@ $ chmod +x Git.sh
 ```sh
 $ ./Git.sh "commit-message" <pull_branch_name> <push_branch_name>
 
+[Mongodb Cluster backup](https://www.mongodb.com/cloud/atlas/register)
+> Create .env file and a DB folder in the root dirctory where all backfile will be stored, and add the value like this MONGODB_URI=""
+```sh
+$ chmod +x MongoBackup.sh
+```
+```sh
+$ ./MongoBackup.sh
+```
+
 
 
