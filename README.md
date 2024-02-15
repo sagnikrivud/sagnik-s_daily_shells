@@ -78,6 +78,6 @@ $ ./SSHKeyLoad.sh user-email@domain.com
 $ chmod +x SSLRenew.sh
 ```
 ```sh
-$ ./SSLRenew.sh www.whatYourDomain.com
+$ ./SSLRenew.sh <www.whatYourDomain.com>
 ```
 
