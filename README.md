@@ -81,6 +81,7 @@ $ chmod +x SSLRenew.sh
 ```sh
 $ ./SSLRenew.sh <www.whatYourDomain.com>
 ```
+> Set cron in cron tab.
 ```sh
 $ 0 0 * * * /path/to/renew_cert.sh
 ```
