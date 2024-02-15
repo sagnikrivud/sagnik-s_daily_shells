@@ -71,3 +71,13 @@ $ chmod +x SSHKeyLoad.sh
 $ ./SSHKeyLoad.sh user-email@domain.com
 ```
 
+[SSL Renew for Server (SSLRenew.sh)](https://www.name.com/support/articles/205190858-renewing-an-ssl-certificate)
+> Renew SSL certificate using this file, please follow the instruction in.
+
+```sh
+$ chmod +x SSLRenew.sh
+```
+```sh
+$ ./SSLRenew.sh www.whatYourDomain.com
+```
+
