@@ -16,6 +16,7 @@
 - Review Javascript file.
 - Renew SSL certification.
 - File syncing between 2 directories.
+- Application Backup in zip folder.
 
 
 ## Installation
@@ -93,6 +94,17 @@ $ chmod +x FileSync.sh
 ```
 ```sh
 $ ./FileSync.sh </path/to/source_directory> </path/to/destination_directory>
+```
+
+[Take Application backup (ApplicationBackup.sh)](https://iq.opengenus.org/automated-backup-in-linux-using-shell-scripting-and-crontab-scheduler/)
+
+> Take a backup of entire project application and stored in a zip file.
+
+```sh
+$ chmod +x ApplicationBackup.sh
+```
+```sh
+$ ./ApplicationBackup.sh </path/to/project_application> </path/to/backup_directory>
 ```
 
 
