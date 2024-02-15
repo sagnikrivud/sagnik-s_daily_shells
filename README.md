@@ -126,7 +126,7 @@ $ ./MSSQLServerDBBackup.sh
 ```
 
 [PM2 Engine for start Node Server (PM2.sh)](https://pm2.keymetrics.io/)
-> This script is to both install setup of PM2 and run the Node server after deployment of Node js application
+> This script is to both install setup of PM2 and run the Node server after deployment of Node js application at server instance
 ```sh
 $ chmod +x PM2.sh
 ```
