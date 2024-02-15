@@ -21,7 +21,7 @@
 - Postgre SQL Db backup.
 
 ## Compatibility
-> [Linux]() ![Linux](https://img.shields.io/badge/linux-%231563FF.svg?style=plastic&logo=linux&logoColor=white)
+> ![Linux](https://img.shields.io/badge/linux-%231563FF.svg?style=plastic&logo=linux&logoColor=white)
 
 ## Installation
 
