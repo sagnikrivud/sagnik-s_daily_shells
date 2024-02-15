@@ -73,12 +73,15 @@ $ ./SSHKeyLoad.sh user-email@domain.com
 ```
 
 [SSL Renew for Server (SSLRenew.sh)](https://www.name.com/support/articles/205190858-renewing-an-ssl-certificate)
-> Renew SSL certificate using this file, please follow the instruction in.
+> Renew SSL certificate using this file, please follow the instruction in, also can set in cron.
 
 ```sh
 $ chmod +x SSLRenew.sh
 ```
 ```sh
 $ ./SSLRenew.sh <www.whatYourDomain.com>
+```
+```sh
+$ 0 0 * * * /path/to/renew_cert.sh
 ```
 
