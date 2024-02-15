@@ -20,6 +20,8 @@
 - MSSQL DB backup from Azure RDB host.
 - Postgre SQL Db backup.
 
+## Compatibility
+> [Linux]()
 
 ## Installation
 
