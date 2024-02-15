@@ -17,6 +17,7 @@
 - Renew SSL certification.
 - File syncing between 2 directories.
 - Application Backup in zip folder.
+- MSSQL DB backup from Azure RDB host.
 
 
 ## Installation
@@ -105,6 +106,23 @@ $ chmod +x ApplicationBackup.sh
 ```
 ```sh
 $ ./ApplicationBackup.sh </path/to/project_application> </path/to/backup_directory>
+```
+
+[MSSQL Server DB backup from Azure DB host (MSSQLServerDBBackup.sh)](https://azure.microsoft.com/en-in/products/azure-sql/database)
+> This script will take credentials from .env file, please create same and keep the DB credentials as following
+SERVER_NAME=host_server_name.database.windows.net
+DATABASE_NAME=database_name
+USERNAME=username
+PASSWORD=password
+
+```sh
+$ npm install dotenv-cli
+```
+```sh
+$ chmode  +x MSSQLServerDBBackup.sh
+```
+```sh
+$ ./MSSQLServerDBBackup.sh
 ```
 
 
