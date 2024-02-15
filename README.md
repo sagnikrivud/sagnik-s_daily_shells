@@ -84,7 +84,7 @@ $ ./SSLRenew.sh <www.whatYourDomain.com>
 ```
 > Set cron in cron tab.
 ```sh
-$ 0 0 * * * /path/to/SSLRenew.sh
+$ 0 0 * * * /path/to/SSLRenew.sh <www.whatYourDomain.com>
 ```
 
 [File syncing between 2 directories (FileSync.sh)](https://www.baeldung.com/linux/synchronize-linux-directories)
