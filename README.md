@@ -18,6 +18,7 @@
 - File syncing between 2 directories.
 - Application Backup in zip folder.
 - MSSQL DB backup from Azure RDB host.
+- Postgre SQL Db backup.
 
 
 ## Installation
