@@ -125,4 +125,13 @@ $ chmode  +x MSSQLServerDBBackup.sh
 $ ./MSSQLServerDBBackup.sh
 ```
 
+[PM2 Engine for start Node Server (PM2.sh)](https://pm2.keymetrics.io/)
+> This script is to both install setup of PM2 and run the Node server after deployment of Node js application
+```sh
+$ chmod +x PM2.sh
+```
+```sh
+$ ./PM2.sh <app_name> </path/to/nodejs_app>
+```
+
 
