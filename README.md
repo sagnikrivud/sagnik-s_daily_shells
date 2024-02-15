@@ -15,6 +15,7 @@
 - Load SSH key for Server after ssh_pub key generate.
 - Review Javascript file.
 - Renew SSL certification.
+- File syncing between 2 directories.
 
 
 ## Installation
@@ -88,10 +89,10 @@ $ 0 0 * * * /path/to/SSLRenew.sh
 
 [File syncing between 2 directories (FileSync.sh)](https://www.baeldung.com/linux/synchronize-linux-directories)
 ```sh
-chmod +x FileSync.sh
+$ chmod +x FileSync.sh
 ```
 ```sh
-./FileSync.sh </path/to/source_directory> </path/to/destination_directory>
+$ ./FileSync.sh </path/to/source_directory> </path/to/destination_directory>
 ```
 
 
