@@ -133,5 +133,17 @@ $ chmod +x PM2.sh
 ```sh
 $ ./PM2.sh <app_name> </path/to/nodejs_app>
 ```
+[Postgre SQL Backup from Host (PgSQLBackup.sh)](https://www.cloudclusters.io/cloud/postgresql/?utm_source=google.com&utm_medium=ads&utm_term=postgresql%20cloud&gclid=Cj0KCQiA5rGuBhCnARIsAN11vgRDqZMniZBtVF8ChSDxJ6J1Vu1r7o2wqTM_NPGHJ-m8739VoKHv-dgaAhsAEALw_wcB)
 
+> make a .env file and keep this details as there DB_USER=your_username
+DB_PASSWORD=your_password
+DB_NAME=your_database_name
+DB_HOST=postgre-sql-domain.net
+
+```sh
+$ chmod +x PgSQLBackup.sh
+```
+```sh
+$ ./PgSQLBackup.sh
+```
 
