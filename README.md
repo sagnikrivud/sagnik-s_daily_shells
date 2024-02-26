@@ -36,7 +36,10 @@ $ ./Git.sh "commit-message" <pull_branch_name> <push_branch_name>
 ```
 
 [Mongodb Cluster backup (MongoBackup.sh)](https://www.mongodb.com/cloud/atlas/register)
-> Create .env file and a DB folder in the root directory where all backup files will be stored, and add the value like this MONGODB_URI=""
+> Create .env file and a DB folder in the root directory where all backup files will be stored, and add the value like this
+```env
+MONGODB_URI=""
+```
 ```sh
 $ chmod +x MongoBackup.sh
 ```
@@ -46,11 +49,13 @@ $ ./MongoBackup.sh
 [Mysql RDS backup (AWS RDS) (MysqlBackup.sh)](https://aws.amazon.com/free/database/?gclid=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB&trk=a049d6a3-611f-4ee9-9d3b-e88a4b66272f&sc_channel=ps&ef_id=Cj0KCQiA5rGuBhCnARIsAN11vgS3_Cg_4Rkay0s8YevvXhPwc5pDA_p16aTlJ-a0R4h-E6mmbmc0WigaApJrEALw_wcB:G:s&s_kwcid=AL!4422!3!659622174426!e!!g!!amazon%20mysql%20rds!11542049405!107751951770)
 
 > Create .env file and a DB folder in the root directory where all backup files will be stored, and add the value like this
-> DB_HOST=your-rds-endpoint.region.rds.amazonaws.com
-> DB_PORT=your-rds-port
-> DB_USER=your-username
-> DB_PASSWORD=your-password
-> DB_NAME=your-database-nam
+```env
+DB_HOST=your-rds-endpoint.region.rds.amazonaws.com
+DB_PORT=your-rds-port
+DB_USER=your-username
+DB_PASSWORD=your-password
+DB_NAME=your-database-name
+```
 
 ```sh
 $ chmod +x MysqlBackup.sh
@@ -113,10 +118,12 @@ $ ./ApplicationBackup.sh </path/to/project_application> </path/to/backup_directo
 
 [MSSQL Server DB backup from Azure DB host (MSSQLServerDBBackup.sh)](https://azure.microsoft.com/en-in/products/azure-sql/database)
 > This script will take credentials from .env file, please create same and keep the DB credentials as following
+```env
 SERVER_NAME=host_server_name.database.windows.net
 DATABASE_NAME=database_name
 USERNAME=username
 PASSWORD=password
+```
 
 ```sh
 $ npm install dotenv-cli
@@ -138,10 +145,13 @@ $ ./PM2.sh <app_name> </path/to/nodejs_app>
 ```
 [Postgre SQL Backup from Host (PgSQLBackup.sh)](https://www.cloudclusters.io/cloud/postgresql/?utm_source=google.com&utm_medium=ads&utm_term=postgresql%20cloud&gclid=Cj0KCQiA5rGuBhCnARIsAN11vgRDqZMniZBtVF8ChSDxJ6J1Vu1r7o2wqTM_NPGHJ-m8739VoKHv-dgaAhsAEALw_wcB)
 
-> make a .env file and keep this details as there DB_USER=your_username
+> make a .env file and keep this details as there
+```env
+DB_USER=your_username
 DB_PASSWORD=your_password
 DB_NAME=your_database_name
 DB_HOST=postgre-sql-domain.net
+```
 
 ```sh
 $ chmod +x PgSQLBackup.sh
