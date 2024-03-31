@@ -6,6 +6,8 @@
 
  ✨Sagnik's Magic ✨
 
+ ![](https://banner2.cleanpng.com/20180905/fxs/kisspng-bash-shell-script-scripting-language-command-line-guaje-juaruipav-5b9092f6d69ad7.119365531536201462879.jpg)
+
 ## File Contents 
 
 - Git Operation shell script
